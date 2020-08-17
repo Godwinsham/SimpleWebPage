@@ -1,0 +1,315 @@
+body, *, *:before, *:after{
+
+	box-sizing: border-box;
+}
+
+html, body{
+
+	font-family: "Helvetica neue", Helvetica, sans-serif;
+    font-size: 16px;
+    color: #474747;
+}
+
+h1,h2,h3,h4,h5,h6, .title{
+ font-family: Economica;
+ text-transform: uppercase;
+ font-weight: bold;
+ margin: 0 0 1em;
+ font-size: 1.7rem;
+}
+
+h2{
+	font-size: 1.6rem;
+}
+
+h3{
+	font-size: 1.2rem;
+}
+
+a{
+
+color: inherit;
+font-weight: bold;
+text-decoration: underline;
+
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgb(239, 157, 16);
+}
+
+p{
+
+	font-family: Fenix;
+    margin: 0.5em 0;
+	line-height: 1.3;
+	font-size: 1.2rem;
+	font-weight: normal;
+}
+
+.fixed-width{
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table; 
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.data-block{
+	
+	margin-bottom: 3rem;
+}
+
+/****************************************************
+Header
+****************************************************/
+
+.page-header{
+
+	border-top: 6px solid #ebebeb;
+	padding-bottom: 2em;
+	
+}
+
+
+.page-header h1{
+
+	position: absolute;
+	top: -100%;
+	left:-100%;
+	overflow: hidden;
+}
+
+
+.page-header > div{
+
+	position: relative;
+}
+
+.page-header nav{
+float: right;
+font-family: "Economica", sans-serif;
+text-transform: uppercase;
+
+}
+
+.page-header nav li{
+
+color: #bfbfbf;
+float: left;
+margin-right: 3em;
+font-size: 1.3rem;
+padding-top: 3rem; 
+
+}
+
+.page-header nav li:last-child{
+	margin-right: 0;
+}
+
+.page-header nav li em{
+
+  display: block;
+  color: #474747;
+  font-size:24px;	
+  text-decoration:normal;
+
+}
+
+
+
+.page-header .logo{
+
+	font-family:'Devonshire';
+	font-size: 4.5em;
+	position: absolute;
+	font-weight:;
+	bottom: 0;
+}
+
+/*********************************************
+section
+*********************************************/
+
+.main-visual {
+
+}
+
+.main-visual img{
+
+	display: block;
+}
+
+.main-visual figcaption{
+
+           background-color: #f6f6f6;
+           padding: 0.5em 1em;
+
+}
+
+.main-visual figcaption>strong{
+	font-size: 1.4rem;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+
+
+/*******************************************
+claim
+*******************************************/
+
+.claim{
+
+
+	float: left;
+	width: 28%;
+	margin-right:5%;
+}
+
+.claim::last-child{
+	margin-right: 0%;
+}
+
+
+.claim  header > i{
+
+
+
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #9a9a9a;
+	float: left;
+	width: 25%;
+}
+
+
+.claim header > h2{
+
+	width: 75%;
+	float: left;
+	font-weight: normal;
+    font-family: Cinzel; 
+    font-size: 1.5rem;
+}
+
+/******************************************
+portfolio
+******************************************/
+
+.portfolio{
+	position: relative;
+	background-color:
+}
+
+.portfolio::before{
+
+	content: " ";
+	display: block;
+	height: 30px;
+	margin-bottom: 2em;
+	background: url(../image/pattern.png) left top repeat-x;
+}
+
+.portfolio .title-wrapper{
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+}
+
+.portfolio h2{
+
+	display: inline;
+	background-color: #fff;
+	font-family: 'Akronim';
+	font-weight: bold;
+	font-size: 1.4em;
+
+}
+
+.work{
+	float: left;
+	margin-right: 4%;
+	width: 22%;
+}
+
+.work:last-child{
+	margin-right: 0;
+}
+
+.work figure{
+	margin-bottom: 1em;
+
+}
+
+.portfolio p{
+
+font-family: 'Sorts Mill Goudy';
+
+}
+
+.portfolio h3{
+
+	font-family: 'Red Rose';
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+
+.portfolio a{
+
+	font-family: Iceberg;
+	text-decoration: none;
+	font-weight: normal;
+	float: left;
+	position: absolute;
+	font-size: 1.4em;
+}
+/******************************
+footer
+******************************/
+
+
+.page-footer::before {
+
+     content: " ";
+     display: block;
+     height: 5px;
+     background: url(../image/pattern.png) left top repeat-x;
+
+
+}
+
+.page-footer {
+
+   background-color: #f4f4f4;
+   color: #9b9b9b;
+   font-size: 1rem;
+   height: 70px;
+}
+
+.page-footer .copyright{
+
+	float: left;
+}
+
+.page-footer .credits{
+
+	float: right;
+}
+
+.page-footer-content{
+
+	padding: 1em 0;
+}
